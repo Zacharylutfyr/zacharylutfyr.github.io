@@ -368,7 +368,17 @@ html {
   background-color: black;
 }
 
+.odoo-project {
+  background-color: black;
+}
+
 .ongoing-project h1 {
+  color: var(--text-color);
+  text-align: center;
+  padding: 70px 15px 15px 15px;
+}
+
+.odoo-project h1 {
   color: var(--text-color);
   text-align: center;
   padding: 70px 15px 15px 15px;
@@ -413,8 +423,18 @@ html {
   line-height: 20px;
 }
 
+.card .content .sub-title-done {
+  font-size: 13px;
+  font-weight: 600;
+  color: #000000;
+  line-height: 20px;
+}
+
 .card .content .sub-title span {
 color: red;
+}
+.card .content .sub-title-done span {
+color: rgb(6, 177, 0);
 }
 .card .content p {
   text-align: justify;
@@ -498,11 +518,29 @@ color: red;
   text-align: center;
 }
 
+.skills .skills-box .box .odoo-skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
 .skills .skills-box .box .front-skills {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
   justify-content: center;
+}
+
+.skills .skills-box .box .odoo-skills div {
+  padding: 10px 20px 10px 20px;
+  background-color: #7b0194de;
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -ms-border-radius: 100px;
+  -o-border-radius: 100px;
+  color: white;
 }
 
 .skills .skills-box .box .front-skills div {
@@ -543,7 +581,7 @@ color: red;
 
 .skills .skills-box .box .another-skills div {
   padding: 10px 20px 10px 20px;
-  background-color: #7b0194de;
+  background-color: #059200de;
   border-radius: 100px;
   -webkit-border-radius: 100px;
   -moz-border-radius: 100px;
